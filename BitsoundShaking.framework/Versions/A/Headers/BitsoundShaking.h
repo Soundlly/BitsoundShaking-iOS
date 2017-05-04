@@ -33,18 +33,18 @@ typedef NS_ENUM(int, BitsoundEnableShakeResult) {
 + (nonnull BitsoundShaking *)sharedInstance;
 
 /**
- *	흔들기 감지 시작
- *  이 메소드를 실행하면 흔들림 감지 시작상태가 된다.
- *	흔들어도 녹음을 시작 안한다.
- *  흔들기 감지시, shakingDidDetect delegate method가 호출된다.
+ *	shaking 감지 시작
+ *  이 메소드를 실행하면 shaking 감지 시작상태가 된다.
+ *	shaking해도 녹음을 시작 안한다.
+ *  shaking 감지시, shakingDidDetect delegate method가 호출된다.
  
  
  */
 - (BitsoundEnableShakeResult)enableShake;
 
 /**
- *	흔들기 감지 종료
- *  이 메소드를 실행하면 흔들림 감지 상태가 종료 된다.
+ *	shaking 감지 종료
+ *  이 메소드를 실행하면 shaking 감지 상태가 종료 된다.
  */
 - (void)disableShake;
 
