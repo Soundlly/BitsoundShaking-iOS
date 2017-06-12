@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "BitsoundShaking"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "shaking detect를 위한 iOS SDK framework"
   s.description  = <<-DESC
 				    비트사운드가 무엇인가요?
