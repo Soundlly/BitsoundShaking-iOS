@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "BitsoundShaking"
-  s.version      = "1.0.2"
+  s.version      = "1.1.0"
   s.summary      = "shaking detect를 위한 iOS SDK framework"
   s.description  = <<-DESC
 				    비트사운드가 무엇인가요?
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 				  	Sample Scenarios(https://docs.bitsound.io/v1.0/docs/sample-scenarios)에서 내 앱의 시나리오를 찾으세요. 예제 코드를 제공해드립니다.
                    DESC
 
-  s.homepage     = "https://docs.bitsound.io/v1.0/docs/introduction"
+  s.homepage     = "https://docs.bitsound.io/v1.2/docs/introduction"
   s.license      = "Commercial"
   s.authors      = { "wonje,song" => "wonje@soundl.ly" }
   s.platform     = :ios, "7.0"
